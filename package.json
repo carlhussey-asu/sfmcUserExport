@@ -1,13 +1,13 @@
 {
   "name": "sfmc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Use Salesforce Marketing Cloud SDK to retrieve account users.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Carl Hussey <carl.hussey@asu.edu> (https://asu.edu)",
+  "license": "UNLICENSED",
   "dependencies": {
     "dotenv": "^16.0.0",
     "json2csv": "^5.0.7",

@@ -79,13 +79,13 @@ function writeData(data) {
     const csv = json2csvParser.parse(data)
     fs.writeFile('users.csv', csv, function(err) {
         if (err) throw err;
-        console.log('csv complete');
+        console.log('csv export complete');
     });
 
     // Create raw JSON
     fs.writeFile("raw.json", JSON.stringify(data), function(err) {
         if (err) throw err;
-        console.log('JSON complete');
+        console.log('JSON export complete');
     });
 }
 
